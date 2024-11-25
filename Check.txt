@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -58,6 +59,8 @@
 
 
 
+=======
+>>>>>>> ff4ded16421f7a51cbdea99b84a7b026fad564c8
 import java.util.Scanner;
 import java.util.Random;
 
