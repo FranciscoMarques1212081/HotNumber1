@@ -8,8 +8,12 @@ public class hotnumber {
 
         int numberToGuess = random.nextInt(101); // Número aleatório entre 0 e 100
         int userGuess = -1;
+<<<<<<< HEAD
         int attempts = 0;
+        
+=======
 
+>>>>>>> check1
         System.out.println("Bem-vindo ao jogo Hot Number!");
         System.out.println("Tente adivinhar o número entre 0 e 100.");
         
@@ -19,17 +23,26 @@ public class hotnumber {
         while (userGuess != numberToGuess && attempts < maxAttempts) {
             System.out.print("Digite seu palpite: ");
             userGuess = scanner.nextInt();
+<<<<<<< HEAD
             attempts++;
+            
+=======
 
+>>>>>>> check1
             giveHint(numberToGuess, userGuess);
-        
+            
             if (userGuess == numberToGuess) {
                 System.out.println("Parabéns! Você adivinhou o número: " + numberToGuess);
             } else if (attempts == maxAttempts) {
                 System.out.println("Você atingiu o número máximo de tentativas. O número era: " + numberToGuess);
             }
         }
+<<<<<<< HEAD
         
+=======
+
+        System.out.println("Parabéns! Você adivinhou o número: " + numberToGuess);
+>>>>>>> check1
         scanner.close();
     }
 
